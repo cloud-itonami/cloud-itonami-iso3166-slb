@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "slb.dish.poi", :name "Poi", :country "SLB", :kind :dish, :summary "Fermented taro-root paste, described as served during any Solomon Islands celebration, and preparable with chicken or fish or as a porridge.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Solomon_Islands", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slb.dish.ulu", :name "Ulu (breadfruit)", :country "SLB", :kind :dish, :summary "Breadfruit, locally called ulu, described as servable with any dish and brought to the islands by Lapita seafarers.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Solomon_Islands", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slb.beverage.kava", :name "Kava", :country "SLB", :kind :beverage, :summary "Identified as the national drink of the Solomon Islands.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Solomon_Islands", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slb.product.ngali-nut", :name "Ngali nut", :country "SLB", :kind :product, :summary "Canarium indicum, known locally as ngali nut; important in traditional Solomon Islands society where ownership of the trees is a measure of wealth, with commercial processing and marketing having started there in 1989.", :url "https://en.wikipedia.org/wiki/Canarium_indicum", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slb.craft.shell-money", :name "Shell money", :country "SLB", :kind :craft, :summary "Traditional currency of small shells laboriously ground by hand; as late as 1882 local Solomon Islands trade was carried on by this coinage, and cowry-shell currency worked into decorated strips remains in use to some extent today.", :url "https://en.wikipedia.org/wiki/Shell_money", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "slb.heritage.east-rennell", :name "East Rennell", :country "SLB", :kind :heritage, :summary "Southern portion of Rennell Island -- the largest raised coral atoll in the world -- inscribed as a UNESCO World Heritage Site in 1998; added to the List of World Heritage in Danger in 2013 due to the threat of logging.", :url "https://en.wikipedia.org/wiki/East_Rennell", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
