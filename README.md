@@ -36,7 +36,7 @@ as every other `cloud-itonami-iso3166-*` sibling:
   and honestly-narrowed scope, including facts this iteration could NOT
   verify (e.g. a specific procurement-value dollar threshold, or a
   local-representative/agent provision).
-- `src/statute/facts.cljc` -- general-law catalog: the Companies Act
+- `src/statute/facts.cljk` -- general-law catalog: the Companies Act
   2009 (company law) and the Labour Act (Chapter 73, 1996 Edition,
   labour law).
 
@@ -61,7 +61,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Solomon Islands:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from

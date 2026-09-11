@@ -7,7 +7,7 @@ Independent public-sector market-entry compliance for Solomon Islands.
   regulations; accountable/accounting officers must follow prescribed
   procurement planning, tendering and contracting processes; s.73(2)(d)
   prohibits apportioning a procurement transaction into parts to avoid
-  the procurement rules (see `src/marketentry/facts.cljc`). No live
+  the procurement rules (see `src/marketentry/facts.cljk`). No live
   Ministry of Finance and Treasury site could be reached this session,
   and the delegated procurement Regulations were not found/fetched --
   honestly, no specific procurement-value dollar threshold is modelled.
